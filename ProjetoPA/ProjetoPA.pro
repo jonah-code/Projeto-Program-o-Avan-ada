@@ -4,7 +4,6 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        cutbox.cpp \
         cutellipsoid.cpp \
         cutsphere.cpp \
         cutvoxel.cpp \
@@ -17,7 +16,6 @@ SOURCES += \
         sculptor.cpp
 
 HEADERS += \
-    cutbox.h \
     cutellipsoid.h \
     cutsphere.h \
     cutvoxel.h \

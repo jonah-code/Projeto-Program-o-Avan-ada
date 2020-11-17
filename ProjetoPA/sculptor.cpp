@@ -4,11 +4,9 @@
 #include <fstream>
 #include <cmath>
 using namespace std;
-//Voxel ***v;
+Voxel ***v;
 Sculptor::Sculptor(int _nx, int _ny, int _nz)
 {
-    //cout <<"funcionou"<<endl;
-
     nx = _nx;
     ny = _ny;
     nz = _nz;
