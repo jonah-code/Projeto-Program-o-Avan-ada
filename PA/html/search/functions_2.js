@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['putbox_36',['putBox',['../class_sculptor.html#a311ad7a0fb83fc67ac1f378be8e99fe1',1,'Sculptor']]],
-  ['putellipsoid_37',['putEllipsoid',['../class_sculptor.html#a093615b0c2b9b3a17a56300b9b939f39',1,'Sculptor']]],
-  ['putsphere_38',['putSphere',['../class_sculptor.html#a794a2b6ee8fc8098fd6150cb46101fc6',1,'Sculptor']]],
-  ['putvoxel_39',['putVoxel',['../class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52',1,'Sculptor']]]
+  ['sculptor_27',['Sculptor',['../class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433',1,'Sculptor']]],
+  ['setcolor_28',['setColor',['../class_sculptor.html#af1d69da01379874b0dfd6454787cb562',1,'Sculptor']]]
 ];

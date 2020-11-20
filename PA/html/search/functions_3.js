@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sculptor_40',['Sculptor',['../class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433',1,'Sculptor']]],
-  ['setcolor_41',['setColor',['../class_sculptor.html#af1d69da01379874b0dfd6454787cb562',1,'Sculptor']]]
+  ['writeoff_29',['writeOFF',['../class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309',1,'Sculptor']]]
 ];

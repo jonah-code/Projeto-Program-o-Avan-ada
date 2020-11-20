@@ -1,10 +1,29 @@
 #ifndef SCULPTOR_H
 #define SCULPTOR_H
-
+/**
+ * @brief A estrutura voxel é ultilizada para para atribucao de caracteriticas a matriz do tipo voxel
+ */
 struct Voxel {
-  float r,g,b; // Colors
+    /**
+   * @brief r vai receber o valor vermelho na posicao passada da matriz de voxel
+   */
+  float r;
+  /**
+   * @brief g vai receber o valor verde na posicao passada da matriz de voxel
+   */
+  float g;
+  /**
+   * @brief b vai receber o valor azul na posicao passada da matriz de voxel
+   */
+  float b;
+  /**
+   * @brief a vai receber o nivel de trasparencia na posicao da matriz especificada
+   */
+
   float a;
-  // Transparency
+  /**
+   * @brief isOn vai armazenar o valor true ou false para verificar quais voxel seram desenhados
+   */
   bool isOn; // Included or not
 };
 
@@ -15,7 +34,6 @@ class Sculptor
 {
 protected:
   Voxel ***v;
-  // 3D matrix
   int nx,ny,nz; // Dimensions
   float r,g,b,a; // Current drawing color
 public:
