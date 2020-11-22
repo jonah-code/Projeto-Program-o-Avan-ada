@@ -44,6 +44,9 @@ public:
    * @param _nz recebe a profundidade da matriz
    */
   Sculptor(int _nx, int _ny, int _nz);
+  /**
+    Destructor serve para liberar o espaço da memoria alocada
+   */
   ~Sculptor();
   /**
    * @brief setColor define a cor da estura a ser desenhada

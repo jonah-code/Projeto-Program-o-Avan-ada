@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writeoff_42',['writeOFF',['../class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309',1,'Sculptor']]]
+  ['_7esculptor_31',['~Sculptor',['../class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff',1,'Sculptor']]]
 ];

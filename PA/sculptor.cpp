@@ -32,7 +32,10 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz)
 
 }
 Sculptor::~Sculptor(){
-
+    delete [] **v;
+    delete [] *v;
+    delete [] v;
+    //cout<<"funcionando"<<endl;
 }
 
 void Sculptor:: setColor(float r, float g, float b, float alpha){
@@ -159,7 +162,6 @@ void Sculptor::writeOFF(char *filename){
     }
     arquivo<<"OFF"<<endl;
     arquivo<<vertices << " "<< faces<<" "<<"0"<<endl;
-
     int i=0;
     for(int x =0;x<nx;x++){
         for(int y=0;y<ny;y++){
@@ -194,6 +196,6 @@ void Sculptor::writeOFF(char *filename){
             }
         }
     }
-
+    arquivo.close();
 }
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['b_31',['b',['../struct_voxel.html#a5cd8432b1d7d0fd8b79e0fc7d10373a8',1,'Voxel']]]
+  ['b_33',['b',['../struct_voxel.html#a5cd8432b1d7d0fd8b79e0fc7d10373a8',1,'Voxel']]]
 ];
